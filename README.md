@@ -8,11 +8,11 @@ pnpm add rsbuild-plugin-zip -D
 ## Usage
 ```ts
 // rsbuild.config.ts
-import { RsbuildPluginZip } from "rsbuild-plugin-zip";
+import { pluginZip } from "rsbuild-plugin-zip-file";
 
 export default {
   plugins: [
-    RsbuildPluginZip()
+    pluginZip()
   ]
 };
 ```
