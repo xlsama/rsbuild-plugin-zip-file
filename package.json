@@ -2,6 +2,7 @@
   "name": "rsbuild-plugin-zip-file",
   "version": "0.0.1",
   "type": "module",
+  "packageManager": "pnpm@10.7.1",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -29,5 +30,15 @@
     "rslog": "^1.2.3",
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.7.1"
+  "keywords": [
+    "rsbuild",
+    "plugin",
+    "zip",
+    "file"
+  ],
+  "homepage": "https://github.com/xlsama/rsbuild-plugin-zip-file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlsama/rsbuild-plugin-zip-file"
+  }
 }
